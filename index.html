@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Waiting Response</title>
+</head>
+<body>
+    <h1>Waiting Response</h1>
+    <div>
+    <p>ENTRADA:</p>
+    <textarea id="caixaEntrada" oninput="hasScrollBar(this)">Escreva aqui...</textarea>
+    <button onclick="sendText()">DIGITAR</button>
+    <p>SAÍDA:</p>
+    <textarea id="caixaSaida" readonly></textarea>
+    </div>
+</body>
+</html>
