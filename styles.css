@@ -26,7 +26,9 @@ p {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    
+    padding-left: 25%;
+    font-weight: 500;
+
     font-size: 30px;
 }
 
@@ -47,7 +49,7 @@ textarea {
 
     padding: 12px 20px;
     box-sizing: border-box;
-    width: 100%;
+    width: 50%;
     height: 500px;
 
     resize: none;
@@ -68,6 +70,7 @@ button {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 500;
 
     margin-top: 50px;
     display: block;
