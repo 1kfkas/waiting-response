@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Caliste;
+    src: url(assets/Caliste.ttf);
+}
+
+html, body {
+    font-family: Caliste;
+    height: 100%;
+    margin: 10px;
+    margin: 0;
+}
+
+body {
+    background-color: #1a1126;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #521b3a;
+}
+
+.title {
+    font-size: min(10vw, 40pt);
+    padding: 30px;
+    color: #d9b777;
+}
+
+/* Homepage */
+
+.options {
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    font-family: Caliste;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.options > button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: min(90%, 350px);
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.options > button:hover {
+    width: min(100%, 400px);
+}
+
+.button-write {
+    background-color: #d92818;
+}
+
+.button-write:active {
+    color: #d92818;
+    background-color: white;
+}
+
+.button-read {
+    background-color: #5e17eb;
+}
+
+.button-read:active {
+    color: #5e17eb;
+    background-color: white;
+}
+
+.button-keys {
+    background-color: #3b9e66;
+}
+
+.button-keys:active {
+    color: #5e17eb;
+    background-color: white;
+}
+
+.about {
+    color: #D9B777;
+    text-decoration: none;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+
+.about:active {
+    color:#d92818;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+}
+
+/* About */
+
+.about-text {
+    margin: 200px;
+}
+
+.about-text > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    text-align: justify;
+    color: white;
+}
+
+/* Write */
+
+.warning {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    color: white;
+    max-width: 1300px;
+    background-color: #d92818;
+    text-align: center;
+}
